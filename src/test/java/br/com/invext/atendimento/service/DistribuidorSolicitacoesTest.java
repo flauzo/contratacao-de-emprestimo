@@ -30,5 +30,4 @@ public class DistribuidorSolicitacoesTest {
         // e a Quarta solicitação deve ser enfileirada.
         Assertions.assertEquals(1, distribuidor.tamanhoFilaCartoes());
     }
-
 }
