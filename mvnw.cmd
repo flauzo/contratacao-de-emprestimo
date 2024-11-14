@@ -1,40 +1,31 @@
 @REM ----------------------------------------------------------------------------
 @REM Licenciado para a Apache Software Foundation (ASF) sob um
-
-@REM ou mais contratos de licenÁa de contribuidor. Veja o arquivo AVISO
-
-@REM distribuÌdo com este trabalho para informaÁıes adicionais
-
-@REM em relaÁ„o ‡ propriedade de direitos autorais. O ASF licencia este arquivo
-
-@REM para vocÍ sob a licenÁa Apache, vers„o 2.0 (o
-
-@REM "LicenÁa"); vocÍ n„o pode usar este arquivo exceto em conformidade
-
-@REM com a licenÁa. VocÍ pode obter uma cÛpia da LicenÁa em
+@REM ou mais contratos de licen√ßa de contribuidor. Veja o arquivo AVISO
+@REM distribu√≠do com este trabalho para informa√ß√µes adicionais
+@REM em rela√ß√£o √† propriedade de direitos autorais. O ASF licencia este arquivo
+@REM para voc√™ sob a licen√ßa Apache, vers√£o 2.0 (o
+@REM "Licen√ßa"); voc√™ n√£o pode usar este arquivo exceto em conformidade
+@REM com a licen√ßa. Voc√™ pode obter uma c√≥pia da Licen√ßa em
 @REM
 @REM    https://www.apache.org/licenses/LICENSE-2.0
 @REM
-@REM A menos que exigido pela lei aplic·vel ou acordado por escrito,
+@REM A menos que exigido pela lei aplic√°vel ou acordado por escrito, 
 O software 
-@REM distribuÌdo sob a LicenÁa È distribuÌdo em um
-
-@REM "COMO EST¡", SEM GARANTIAS OU CONDI«’ES DE QUALQUER
-
-@REM KIND, expresso ou implÌcito. Veja a LicenÁa do
-Linguagem especÌfica do 
-@REM que rege permissıes e limitaÁıes
-
-@REM sob a licenÁa.
+@REM distribu√≠do sob a Licen√ßa √© distribu√≠do em um
+@REM "COMO EST√Å", SEM GARANTIAS OU CONDI√á√ïES DE QUALQUER
+@REM KIND, expresso ou impl√≠cito. Veja a Licen√ßa do
+Linguagem espec√≠fica do 
+@REM que rege permiss√µes e limita√ß√µes
+@REM sob a licen√ßa.
 @REM ----------------------------------------------------------------------------
 
 @REM ----------------------------------------------------------------------------
 @REM Apache Maven Wrapper startup batch script, version 3.2.0
 @REM
-@REM VariaÁıes ENV necess·rias:
+@REM Varia√ß√µes ENV necess√°rias:
 @REM JAVA_HOME - location of a JDK home dir
 @REM
-@REM VariaÁıes ENV opcionais
+@REM Varia√ß√µes ENV opcionais
 @REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
 @REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a keystroke before ending
 @REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
@@ -182,8 +173,8 @@ IF NOT %WRAPPER_SHA_256_SUM%=="" (
     if ERRORLEVEL 1 goto error
 )
 
-@REM Fornece uma maneira "padronizada" de recuperar os argumentos CLI que ir„o
-@REM funciona com execuÁıes Windows e n„o Windows.
+@REM Fornece uma maneira "padronizada" de recuperar os argumentos CLI que ir√£o
+@REM funciona com execu√ß√µes Windows e n√£o Windows.
 set MAVEN_CMD_LINE_ARGS=%*
 
 %MAVEN_JAVA_EXE% ^
@@ -208,7 +199,7 @@ if exist "%USERPROFILE%\mavenrc_post.bat" call "%USERPROFILE%\mavenrc_post.bat"
 if exist "%USERPROFILE%\mavenrc_post.cmd" call "%USERPROFILE%\mavenrc_post.cmd"
 :skipRcPost
 
-@REM pause o script se MAVEN_BATCH_PAUSE est· configurado para 'on'
+@REM pause o script se MAVEN_BATCH_PAUSE est√° configurado para 'on'
 if "%MAVEN_BATCH_PAUSE%"=="on" pause
 
 if "%MAVEN_TERMINATE_CMD%"=="on" exit %ERROR_CODE%
