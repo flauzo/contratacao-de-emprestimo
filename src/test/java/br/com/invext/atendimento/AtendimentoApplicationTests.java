@@ -9,5 +9,4 @@ class AtendimentoApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
