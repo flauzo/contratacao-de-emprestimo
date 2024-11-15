@@ -2,6 +2,7 @@ package br.com.invext.atendimento.controller;
 
 import br.com.invext.atendimento.exception.MetodoNaoPermitidoException;
 import br.com.invext.atendimento.model.ApiError;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -23,3 +24,4 @@ public class ErrorHandler {
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(error);
     }
 }
+
