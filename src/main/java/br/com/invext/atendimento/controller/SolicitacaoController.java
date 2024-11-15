@@ -5,6 +5,7 @@ import br.com.invext.atendimento.model.ApiError;
 import br.com.invext.atendimento.model.Solicitacao;
 import br.com.invext.atendimento.model.SolicitacaoResposta;
 import br.com.invext.atendimento.service.DistribuidorSolicitacoes;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -52,3 +53,4 @@ public class SolicitacaoController {
         throw new MetodoNaoPermitidoException("Método não permitido. ...Por favor, use POST para enviar uma Solicitação.");
     }
 }
+
