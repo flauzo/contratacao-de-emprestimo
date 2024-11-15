@@ -19,3 +19,4 @@ public class SolicitacaoResposta {
     // Posição na fila, se aplicável.
     private Integer posicaoNaFila;
 }
+
