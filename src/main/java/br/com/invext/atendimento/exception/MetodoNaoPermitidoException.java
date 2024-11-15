@@ -5,3 +5,4 @@ public class MetodoNaoPermitidoException extends RuntimeException {
         super(message);
     }
 }
+
