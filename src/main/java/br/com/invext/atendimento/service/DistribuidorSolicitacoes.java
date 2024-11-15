@@ -13,14 +13,12 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-
 /**
  * Este é o Serviço principal que lida com a lógica de Distribuição das Solicitações. Ele verifica a disponibilidade
  * dos atendentes, encaminha as solicitações para os atendentes disponíveis ou as coloca em fila se todos os atendentes
  * estiverem ocupados. Também simula a finalização de um atendimento após um período.
  *
  */
-
 public class DistribuidorSolicitacoes {
 
     public SolicitacaoResposta distribuirSolicitacao(Solicitacao solicitacao) {
@@ -42,7 +40,6 @@ public class DistribuidorSolicitacoes {
                 response.setPosicaoNaFila(filaOutros.size());
                 break;
         }
-
         return response;
     }
 
@@ -81,7 +78,6 @@ public class DistribuidorSolicitacoes {
         filaEmprestimos = new LinkedList<>();
         filaOutros = new LinkedList<>();
     }
-
 
     private void agendarFinalizacaoAtendimento(Atendente atendente, Queue<Solicitacao> fila) {
         scheduler.schedule(() -> {
