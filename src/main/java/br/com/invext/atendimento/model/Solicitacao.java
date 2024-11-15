@@ -3,7 +3,6 @@
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-
 public record Solicitacao(String assunto) {
     // Construtor para deserialização do JSON.
     @JsonCreator
@@ -16,3 +15,4 @@ public record Solicitacao(String assunto) {
         return this.assunto;
     }
 }
+
