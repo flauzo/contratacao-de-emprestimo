@@ -1,32 +1,21 @@
 #!/bin/sh
 # ----------------------------------------------------------------------------
 # Licenciado para a Apache Software Foundation (ASF) sob um
-
-# ou mais contratos de licenÁa de contribuidor. Veja o arquivo AVISO
-
-# distribuÌdo com este trabalho para informaÁıes adicionais
-
-# em relaÁ„o ‡ propriedade de direitos autorais. O ASF licencia este arquivo
-
-# para vocÍ sob a licenÁa Apache, vers„o 2.0 (o
-
-# "LicenÁa"); vocÍ n„o pode usar este arquivo exceto em conformidade
-
-# com a licenÁa. VocÍ pode obter uma cÛpia da LicenÁa em
+# ou mais contratos de licen√ßa de contribuidor. Veja o arquivo AVISO
+# distribu√≠do com este trabalho para informa√ß√µes adicionais
+# em rela√ß√£o √† propriedade de direitos autorais. O ASF licencia este arquivo
+# para voc√™ sob a licen√ßa Apache, vers√£o 2.0 (o
+# "Licen√ßa"); voc√™ n√£o pode usar este arquivo exceto em conformidade
+# com a licen√ßa. Voc√™ pode obter uma c√≥pia da Licen√ßa em
 #
 #    https://www.apache.org/licenses/LICENSE-2.0
 #
-# A menos que exigido pela lei aplic·vel ou acordado por escrito,
-
-# software distribuÌdo sob a LicenÁa È distribuÌdo em um
-
-# BASE "COMO EST¡", SEM GARANTIAS OU CONDI«’ES DE QUALQUER
-
-# TIPO, expresso ou implÌcito. Veja a LicenÁa do
-
-# idioma especÌfico que rege permissıes e limitaÁıes
-
-# sob a licenÁa.
+# A menos que exigido pela lei aplic√°vel ou acordado por escrito,
+# software distribu√≠do sob a Licen√ßa √© distribu√≠do em um
+# BASE "COMO EST√Å", SEM GARANTIAS OU CONDI√á√ïES DE QUALQUER
+# TIPO, expresso ou impl√≠cito. Veja a Licen√ßa do
+# idioma espec√≠fico que rege permiss√µes e limita√ß√µes
+# sob a licen√ßa.
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------
@@ -317,3 +306,4 @@ exec "$JAVACMD" \
   -classpath "$MAVEN_PROJECTBASEDIR/.mvn/wrapper/maven-wrapper.jar" \
   "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
   ${WRAPPER_LAUNCHER} $MAVEN_CONFIG "$@"
+
